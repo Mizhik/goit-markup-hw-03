@@ -90,21 +90,23 @@ body {
   line-height: 1.11;
   color: #2e2f42;
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
   background-color: #f4f4fd;
 }
-.main-section-2 .section-title,
-.section-text,
-.section-image {
+
+.main-section-2 .section-image {
   background-color: #ffffff;
 }
 .main-section-2 .section-title {
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  background-color: #ffffff;
 }
 .main-section-2 .section-text {
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-color: #ffffff;
   color: #434455;
 }
 
@@ -144,10 +146,6 @@ footer .logo {
 footer .logo-text {
   color: #f4f4fd;
   letter-spacing: 0.02em;
-}
-footer .logo,
-.logo-text {
-  line-height: 1.5;
 }
 footer .logo-span {
   color: #f4f4fd;
