@@ -131,11 +131,11 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-footer {
+.section-footer {
   background-color: #2e2f42;
   line-height: 1.5;
 }
-footer .logo {
+.section-footer .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -144,16 +144,16 @@ footer .logo {
   line-height: 1.17;
   color: #4d5ae5;
 }
-footer .logo-text {
+.section-footer .logo-text {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
-footer .logo-span {
+.section-footer .logo-span {
   color: #f4f4fd;
   text-transform: uppercase;
 }
-footer .logo:hover,
-footer .logo:focus {
+.section-footer .logo:hover,
+.section-footer .logo:focus {
   color: #4d5ae5;
 }
 .page-button {
