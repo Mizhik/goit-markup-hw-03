@@ -91,6 +91,7 @@ footer .logo,
 }
 footer .logo-span{
   color: #4d5ae5;
+  text-transform: uppercase;
 }
 footer .logo:hover,
 footer .logo:focus {
