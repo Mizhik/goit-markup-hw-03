@@ -98,6 +98,9 @@ body {
 .main-section-2 .page-title {
   letter-spacing: 0.02em;
 }
+.page-title .page-list {
+  background-color: #f4f4fd;
+}
 .main-section-2 .page-element {
   background-color: #ffffff;
 }
