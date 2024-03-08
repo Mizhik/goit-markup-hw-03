@@ -26,9 +26,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.header-contacts{
+  font-style: normal;
+}
 .header-contacts .contact{
   color: #434455;
-  font-style: normal;
 }
 .header-link .link {
   font-weight: 500;
