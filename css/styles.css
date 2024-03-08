@@ -58,19 +58,19 @@ body {
 }
 .main-section-2 {
   background-color: #f4f4fd;
+  font-weight: 500;
 }
 .main-page-title {
   font-size: 56px;
   color: #ffffff;
+  letter-spacing: 0.02em;
 }
 .main-section {
   background-color: #2e2f42;
   line-height: 1.07;
   text-align: center;
 }
-.main-section .main-page-title {
-  letter-spacing: 0.02em;
-}
+
 .main-section-1 {
   font-weight: 500;
   font-size: 20px;
