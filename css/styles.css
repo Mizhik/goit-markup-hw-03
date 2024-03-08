@@ -95,13 +95,11 @@ body {
   text-transform: capitalize;
   background-color: #f4f4fd;
 }
-.list > .section-image,
-.section-title,
-.section-text {
-  background-color: #ffffff;
-}
 .main-section-2 .page-title {
   letter-spacing: 0.02em;
+}
+.main-section-2 .page-element {
+  background-color: #ffffff;
 }
 .main-section-2 .section-title {
   font-weight: 500;
