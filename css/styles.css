@@ -95,12 +95,9 @@ body {
   background-color: #f4f4fd;
 }
 .main-section-2 .section-title,
-.section-text, .section-image {
+.section-text,
+.section-image {
   background-color: #ffffff;
-}
-.main-section-2 .section-image {
-  width: 264px;
-  height: 260px;
 }
 .main-section-2 .section-title {
   font-weight: 500;
