@@ -95,6 +95,11 @@ body {
   text-transform: capitalize;
   background-color: #f4f4fd;
 }
+.list > .section-image,
+.section-title,
+.section-text {
+  background-color: #ffffff;
+}
 .main-section-2 .page-title {
   letter-spacing: 0.02em;
 }
@@ -102,16 +107,11 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  background-color: #ffffff;
 }
 .main-section-2 .section-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  background-color: #ffffff;
-}
-.main-section-2 .section-image {
-  background-color: #ffffff;
 }
 
 .main-section-3 {
