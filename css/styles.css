@@ -13,7 +13,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo span {
+.logo .logo-span{
   color: #2e2f42;
 }
 .page-button {
@@ -50,8 +50,8 @@ body {
 .page-button:focus {
   color: #4d5ae5;
 } */
-.logo span:hover,
-.logo span:focus {
+.logo .logo-span:hover,
+.logo .logo-span:focus {
   color: #4d5ae5;
 }
 .main-section-2 {
@@ -89,7 +89,7 @@ footer .logo,
 .logo-text {
   color: #ffffff;
 }
-footer .logo span {
+footer .logo .logo-span{
   color: #4d5ae5;
 }
 footer .logo:hover,
