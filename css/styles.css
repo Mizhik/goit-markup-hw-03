@@ -92,16 +92,9 @@ body {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
-.main-section-2 .section-title {
-  color: #2e2f42;
-}
-.main-section-2 .section-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+
 footer {
   background-color: #2e2f42;
 }
