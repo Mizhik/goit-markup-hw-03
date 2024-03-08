@@ -90,21 +90,25 @@ body {
   line-height: 1.11;
   color: #2e2f42;
   text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   background-color: #f4f4fd;
 }
 .main-section-2 .section-title,
-.section-text {
+.section-text,
+.section-image {
   background-color: #ffffff;
+}
+.main-section-2 .section-image {
+  width: 264px;
+  height: 260;
 }
 .main-section-2 .section-title {
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 .main-section-2 .section-text {
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -136,7 +140,6 @@ footer .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -144,6 +147,7 @@ footer .logo {
 footer .logo-text {
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  line-height: 1.17;
 }
 footer .logo,
 .logo-text {
