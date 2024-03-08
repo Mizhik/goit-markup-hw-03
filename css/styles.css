@@ -86,7 +86,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.main-section-2 {
+.main-section-2 .container{
   font-size: 20px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -95,21 +95,21 @@ body {
   text-transform: capitalize;
   background-color: #f4f4fd;
 }
-.main-section-2 .page-title {
+.main-section-2 .container .page-title {
   letter-spacing: 0.02em;
 }
-.page-title .page-list {
+.container .page-title .page-list {
   background-color: #f4f4fd;
 }
-.main-section-2 .page-element {
+.main-section-2 .container .page-element {
   background-color: #ffffff;
 }
-.main-section-2 .section-title {
+.main-section-2 .container .section-title {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.main-section-2 .section-text {
+.main-section-2 .container .section-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
