@@ -95,13 +95,12 @@ body {
   background-color: #f4f4fd;
 }
 .main-section-2 .section-title,
-.section-text,
-.section-image {
+.section-text, .section-image {
   background-color: #ffffff;
 }
 .main-section-2 .section-image {
   width: 264px;
-  height: 260;
+  height: 260px;
 }
 .main-section-2 .section-title {
   font-weight: 500;
@@ -142,12 +141,12 @@ footer .logo {
   font-size: 18px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  line-height: 1.17;
   color: #4d5ae5;
 }
 footer .logo-text {
   color: #f4f4fd;
   letter-spacing: 0.02em;
-  line-height: 1.17;
 }
 footer .logo,
 .logo-text {
