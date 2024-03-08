@@ -13,7 +13,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo .logo-span{
+.logo-span{
   color: #2e2f42;
 }
 .page-button {
@@ -89,7 +89,7 @@ footer .logo,
 .logo-text {
   color: #ffffff;
 }
-footer .logo .logo-span{
+footer .logo-span{
   color: #4d5ae5;
 }
 footer .logo:hover,
