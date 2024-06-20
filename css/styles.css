@@ -1,8 +1,50 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #434455;
   background-color: #ffffff;
+}
+main {
+  flex-grow: 1;
+}
+/* start header */
+.header-items .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 156px;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+nav .logo {
+  margin-right: 76px;
+}
+.header-link {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 40px;
+}
+.header-contacts ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 40px;
+}
+
+.logo,
+.contact,
+.link {
+  text-decoration: none;
+  color: inherit;
 }
 .header-items .logo {
   font-family: "Raleway", sans-serif;
@@ -12,27 +54,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-.page-title {
-  font-size: 36px;
-}
-.section-title {
-  font-size: 20px;
-}
-.section-text {
-  font-size: 16px;
-}
-.logo-span {
-  color: #2e2f42;
-}
-.page-button {
-  color: #ffffff;
-  background-color: #4d5ae5;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
 }
 .header-items a {
   font-size: 16px;
@@ -66,18 +87,54 @@ body {
 .logo .logo-span:focus {
   color: #4d5ae5;
 }
-
-.main-page-title {
-  font-size: 56px;
-  color: #ffffff;
-  letter-spacing: 0.02em;
+.logo-span {
+  color: #2e2f42;
+}
+/* end header */
+/* start main-section */
+.main-section .container {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .main-section {
   background-color: #2e2f42;
   line-height: 1.07;
+}
+.page-button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  border: 0;
+}
+.main-page-title {
+  font-size: 56px;
+  color: #ffffff;
+  letter-spacing: 0.02em;
   text-align: center;
 }
-
+/* end main-section */
+/* start main-section-1 */
+.main-section-1 .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-content: center;
+  margin: 0 126px 0;
+}
+.main-section-1 .container li {
+  list-style-type: none;
+  width: calc((100% - 72px) / 4);
+}
 .main-section-1 {
   font-size: 20px;
   line-height: 1.2;
@@ -92,6 +149,17 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* end main-section-1 */
+.page-title {
+  font-size: 36px;
+}
+.section-title {
+  font-size: 20px;
+}
+.section-text {
+  font-size: 16px;
+}
+
 .main-section-2 {
   font-size: 20px;
   line-height: 1.11;
